@@ -1,0 +1,11 @@
+file_format: "1"
+id: doodle_34
+name: doodle_34
+type: shield
+url: https://github.com/onnenon/doodle_34
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - doodle_34_left
+  - doodle_34_right 

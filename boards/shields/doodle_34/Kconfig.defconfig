@@ -1,0 +1,17 @@
+# Copyright (c) 2024 Stephen Onnen
+# SPDX-License-Identifier: MIT
+
+if SHIELD_DOODLE_34_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "doodle_34"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_DOODLE_34_LEFT || SHIELD_DOODLE_34_RIGHT
+config ZMK_SPLIT
+    default y
+
+endif
