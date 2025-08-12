@@ -13,7 +13,6 @@ endif
 if SHIELD_DOODLE_34_LEFT || SHIELD_DOODLE_34_RIGHT
 config ZMK_SPLIT
     default y
-
 endif
 
 if SHIELD_DOODLE_34_DONGLE
