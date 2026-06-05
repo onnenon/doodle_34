@@ -14,5 +14,9 @@ manifest:
     - name: doodle_34
       revision: main
       remote: onnenon
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: main
+
   self:
     path: config
