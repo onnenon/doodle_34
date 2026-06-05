@@ -17,6 +17,5 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
-
   self:
     path: config
